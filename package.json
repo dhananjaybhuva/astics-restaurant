@@ -1,0 +1,36 @@
+{
+  "name": "Astics",
+  "version": "1.0.0",
+  "description": "A restaurant portal.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dhananjay",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "custom-env": "2.0.1",
+    "dotenv": "16.0.3",
+    "express": "4.17.3",
+    "express-session": "^1.17.3",
+    "fs": "0.0.1-security",
+    "glob": "7.2.0",
+    "https": "1.0.0",
+    "i18n": "0.14.2",
+    "joi": "17.6.3",
+    "jsonwebtoken": "9.0.0",
+    "lodash": "4.17.21",
+    "moment": "2.29.4",
+    "mongoose": "7.0.3",
+    "multiparty": "4.2.3",
+    "mv": "2.1.1",
+    "node-cron": "3.0.0",
+    "nodemon": "2.0.22",
+    "pg": "8.7.1",
+    "sequelize": "6.3.2"
+  }
+}
