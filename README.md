@@ -12,11 +12,18 @@
 
 ## Running Project In Local
 ``` bash
-$ git clone <gitUrl>
+$ git clone <gitUrl> 
 
-$ Import postman collection /PostmanCollectionFile/Astics.postman_collection.json
+$ cd astics-restaurant
+
+$ npm install 
+
+> Change DB connection string in env.master file. db: for postgresql & mongodb : for mongodb
 
 $ npm start
+
+> Import postman collection /PostmanCollectionFile/Astics.postman_collection.json
+
 
 ```
 ------------
